@@ -1,0 +1,8 @@
+prefix=/home/king/catkin_ws/install
+
+Name: image_vector
+Description: Description of image_vector
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

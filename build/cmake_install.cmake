@@ -131,11 +131,9 @@ endif()
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
   include("/home/king/catkin_ws/build/gtest/cmake_install.cmake")
-  include("/home/king/catkin_ws/build/teleop_twist_keyboard/cmake_install.cmake")
+  include("/home/king/catkin_ws/build/image_vector/cmake_install.cmake")
   include("/home/king/catkin_ws/build/inverse_kinematics/cmake_install.cmake")
-  include("/home/king/catkin_ws/build/hexaurdf10/cmake_install.cmake")
   include("/home/king/catkin_ws/build/irb_120_arm/cmake_install.cmake")
-  include("/home/king/catkin_ws/build/Smart_navigator_urdf/urdf_4/cmake_install.cmake")
 
 endif()
 

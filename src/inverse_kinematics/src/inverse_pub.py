@@ -32,7 +32,7 @@ irb_robot
 #inverse kinematics solving
 
 # Selection a point to get inverse kinematics solution as angles
-print("point-> x: %2.2f ,y: %2.2f ,z: %2.2f" %(1.5,2.5,2.3) )
+#print("point-> x: %2.2f ,y: %2.2f ,z: %2.2f" %(1.5,2.5,2.3) )
 point = SE3( 0.4453 , 0.5307 , 0.9  )
 
 point_sol = irb_robot.ikine_LM(point)
