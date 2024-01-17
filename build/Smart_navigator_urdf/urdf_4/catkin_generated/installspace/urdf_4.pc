@@ -1,0 +1,8 @@
+prefix=/home/king/catkin_ws/install
+
+Name: urdf_4
+Description: Description of urdf_4
+Version: 1.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

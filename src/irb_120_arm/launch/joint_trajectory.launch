@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<launch> 
+    <param name="robot_description" textfile="$(find irb_120_arm)/urdf/irb_120_arm.urdf"/> 
+    
+    <include file="$(find gazebo_ros)/launch/empty_world.launch" />
+    
+    <node name="spawn_urdf" pkg="gazebo_ros" type="spawn_model" args="-param robot_description -urdf -model irb_120_arm"/>
+
+    <node name="RSP" pkg="robot_state_publisher" type="robot_state_publisher" output="screen"/>
+
+    <rosparam  file="$(find irb_120_arm)/config/joint_trajectory.yaml"/>
+
+    <node name="Controller_spwaner_node" pkg="controller_manager" type="spawner" args="irb_controller"/>
+
+  
+</launch>

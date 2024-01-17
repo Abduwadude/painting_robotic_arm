@@ -1,0 +1,8 @@
+prefix=/home/king/catkin_ws/install
+
+Name: irb_120_arm
+Description: Description of irb_120_arm
+Version: 1.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 
