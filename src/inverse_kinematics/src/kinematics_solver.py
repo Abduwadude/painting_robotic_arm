@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+
 import math
 from spatialmath.base import *
 from spatialmath import SE3
@@ -38,4 +40,4 @@ print("Transformation Matrix :\n",T)
 print("point-> x: %2.2f ,y: %2.2f ,z: %2.2f" %(1.5,2.5,2.3) )
 point = SE3( 0.4453 , 0.5307 , 0.9  )
 point_sol = irb_robot.ikine_LM(point)
-print(point_sol)
+print(point_sol.q)

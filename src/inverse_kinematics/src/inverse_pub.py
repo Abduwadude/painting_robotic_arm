@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+
 import math
 from spatialmath.base import *
 from spatialmath import SE3
@@ -5,6 +7,14 @@ import spatialmath.base.symbolic as sym
 import numpy as np
 import roboticstoolbox as rtb
 import rospy
+from std_msgs.msg import Float32MultiArray
+
+#initialise the rospy node
+rospy.init_node('robotic_arm_kinematics', anonymous=True)
+
+#defining publisher topic
+inverse_point_pub= rospy.Publisher('inverse_point', Float32MultiArray, queue_size=10)
+
 
 #custom robot kinematics solving
 
@@ -24,5 +34,14 @@ irb_robot
 # Selection a point to get inverse kinematics solution as angles
 print("point-> x: %2.2f ,y: %2.2f ,z: %2.2f" %(1.5,2.5,2.3) )
 point = SE3( 0.4453 , 0.5307 , 0.9  )
+
 point_sol = irb_robot.ikine_LM(point)
-print(point_sol)
+print(point_sol.q)
+point_sol_msg = Float32MultiArray()
+point_sol_msg.layout.dim = []
+
+point_sol_msg.data = point_sol.q.tolist()
+
+inverse_point_pub.publish(point_sol_msg)
+
+rospy.spin()
