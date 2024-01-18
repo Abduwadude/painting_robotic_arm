@@ -1,2 +1,2 @@
-image_vector:inverse_kinematics:irb_120_arm
+goal_pub:image_vector:inverse_kinematics:irb_120_arm
 -DCATKIN_DEVEL_PREFIX=/home/king/catkin_ws/devel -DCMAKE_INSTALL_PREFIX=/home/king/catkin_ws/install -G Unix Makefiles

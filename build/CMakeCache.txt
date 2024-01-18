@@ -852,6 +852,12 @@ gmock_build_tests:BOOL=OFF
 gmock_main_LIB_DEPENDS:STATIC=general;gmock;
 
 //Value Computed by CMake
+goal_pub_BINARY_DIR:STATIC=/home/king/catkin_ws/build/goal_pub
+
+//Value Computed by CMake
+goal_pub_SOURCE_DIR:STATIC=/home/king/catkin_ws/src/goal_pub
+
+//Value Computed by CMake
 googletest-distribution_BINARY_DIR:STATIC=/home/king/catkin_ws/build/gtest
 
 //Value Computed by CMake
@@ -1277,7 +1283,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=7
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=8
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP

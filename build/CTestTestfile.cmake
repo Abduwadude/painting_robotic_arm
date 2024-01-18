@@ -5,6 +5,7 @@
 # This file includes the relevant testing commands required for 
 # testing this directory and lists subdirectories to be tested as well.
 subdirs("gtest")
+subdirs("goal_pub")
 subdirs("image_vector")
 subdirs("inverse_kinematics")
 subdirs("irb_120_arm")

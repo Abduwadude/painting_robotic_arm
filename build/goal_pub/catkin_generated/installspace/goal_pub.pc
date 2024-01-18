@@ -1,0 +1,8 @@
+prefix=/home/king/catkin_ws/install
+
+Name: goal_pub
+Description: Description of goal_pub
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 
