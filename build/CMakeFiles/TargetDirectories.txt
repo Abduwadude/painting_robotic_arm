@@ -35,6 +35,14 @@
 /home/king/catkin_ws/build/gtest/googletest/CMakeFiles/test.dir
 /home/king/catkin_ws/build/gtest/googletest/CMakeFiles/gtest_main.dir
 /home/king/catkin_ws/build/gtest/googletest/CMakeFiles/gtest.dir
+/home/king/catkin_ws/build/irb_120_moveit_config/CMakeFiles/install/strip.dir
+/home/king/catkin_ws/build/irb_120_moveit_config/CMakeFiles/install/local.dir
+/home/king/catkin_ws/build/irb_120_moveit_config/CMakeFiles/install.dir
+/home/king/catkin_ws/build/irb_120_moveit_config/CMakeFiles/list_install_components.dir
+/home/king/catkin_ws/build/irb_120_moveit_config/CMakeFiles/rebuild_cache.dir
+/home/king/catkin_ws/build/irb_120_moveit_config/CMakeFiles/edit_cache.dir
+/home/king/catkin_ws/build/irb_120_moveit_config/CMakeFiles/test.dir
+/home/king/catkin_ws/build/irb_120_moveit_config/CMakeFiles/_catkin_empty_exported_target.dir
 /home/king/catkin_ws/build/goal_pub/CMakeFiles/install/local.dir
 /home/king/catkin_ws/build/goal_pub/CMakeFiles/rebuild_cache.dir
 /home/king/catkin_ws/build/goal_pub/CMakeFiles/edit_cache.dir
@@ -78,4 +86,3 @@
 /home/king/catkin_ws/build/irb_120_arm/CMakeFiles/rebuild_cache.dir
 /home/king/catkin_ws/build/irb_120_arm/CMakeFiles/edit_cache.dir
 /home/king/catkin_ws/build/irb_120_arm/CMakeFiles/test.dir
-/home/king/catkin_ws/build/irb_120_arm/CMakeFiles/_catkin_empty_exported_target.dir

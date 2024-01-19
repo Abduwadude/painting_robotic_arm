@@ -933,6 +933,12 @@ irb_120_arm_BINARY_DIR:STATIC=/home/king/catkin_ws/build/irb_120_arm
 //Value Computed by CMake
 irb_120_arm_SOURCE_DIR:STATIC=/home/king/catkin_ws/src/irb_120_arm
 
+//Value Computed by CMake
+irb_120_moveit_config_BINARY_DIR:STATIC=/home/king/catkin_ws/build/irb_120_moveit_config
+
+//Value Computed by CMake
+irb_120_moveit_config_SOURCE_DIR:STATIC=/home/king/catkin_ws/src/irb_120_moveit_config
+
 //The directory containing a CMake configuration file for jsoncpp.
 jsoncpp_DIR:PATH=/usr/lib/x86_64-linux-gnu/cmake/jsoncpp
 
@@ -1283,7 +1289,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=8
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=9
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP

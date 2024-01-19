@@ -330,7 +330,7 @@
     type="revolute">
     <origin
       xyz="-0.1789 0 0"
-      rpy="0 0 1.5708" />
+      rpy="0 0 0" />
     <parent
       link="link_4" />
     <child
@@ -338,8 +338,8 @@
     <axis
       xyz="0 0 1" />
     <limit
-      lower="-1.094"
-      upper="3.094"
+      lower="-2.094"
+      upper="2.094"
       effort="30"
       velocity="3" />
   </joint>

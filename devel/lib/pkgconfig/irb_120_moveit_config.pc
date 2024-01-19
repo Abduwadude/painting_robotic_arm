@@ -1,0 +1,8 @@
+prefix=/home/king/catkin_ws/devel
+
+Name: irb_120_moveit_config
+Description: Description of irb_120_moveit_config
+Version: 0.3.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

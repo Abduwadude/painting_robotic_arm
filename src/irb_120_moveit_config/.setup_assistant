@@ -1,0 +1,11 @@
+moveit_setup_assistant_config:
+  URDF:
+    package: irb_120_arm
+    relative_path: urdf/irb_120_arm.urdf
+    xacro_args: ""
+  SRDF:
+    relative_path: config/irb_120_arm.srdf
+  CONFIG:
+    author_name: Abdul wadood K P
+    author_email: abdulwadoodshraz@gmail.com
+    generated_timestamp: 1705632478
