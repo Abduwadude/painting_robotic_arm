@@ -21,6 +21,8 @@ set(CMAKE_MAKEFILE_DEPENDS
   "inverse_kinematics/catkin_generated/package.cmake"
   "irb_120_arm/catkin_generated/package.cmake"
   "irb_120_moveit_config/catkin_generated/package.cmake"
+  "trajectory_controll_pub/catkin_generated/ordered_paths.cmake"
+  "trajectory_controll_pub/catkin_generated/package.cmake"
   "/home/king/catkin_ws/src/CMakeLists.txt"
   "/home/king/catkin_ws/src/goal_pub/CMakeLists.txt"
   "/home/king/catkin_ws/src/goal_pub/package.xml"
@@ -32,6 +34,8 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/home/king/catkin_ws/src/irb_120_arm/package.xml"
   "/home/king/catkin_ws/src/irb_120_moveit_config/CMakeLists.txt"
   "/home/king/catkin_ws/src/irb_120_moveit_config/package.xml"
+  "/home/king/catkin_ws/src/trajectory_controll_pub/CMakeLists.txt"
+  "/home/king/catkin_ws/src/trajectory_controll_pub/package.xml"
   "/opt/ros/noetic/share/catkin/cmake/all.cmake"
   "/opt/ros/noetic/share/catkin/cmake/assert.cmake"
   "/opt/ros/noetic/share/catkin/cmake/atomic_configure_file.cmake"
@@ -200,6 +204,7 @@ set(CMAKE_MAKEFILE_PRODUCTS
   "goal_pub/CMakeFiles/CMakeDirectoryInformation.cmake"
   "image_vector/CMakeFiles/CMakeDirectoryInformation.cmake"
   "inverse_kinematics/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "trajectory_controll_pub/CMakeFiles/CMakeDirectoryInformation.cmake"
   "irb_120_arm/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 

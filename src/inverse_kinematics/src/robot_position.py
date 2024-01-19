@@ -17,11 +17,11 @@ class inversepose:
 
         #Publishing data of joint rotations and positions
 
-        self.inverse_joint_pub = rospy.Publisher('inverse_joint', Float32MultiArray, queue_size=10)
+        self.inverse_joint_pub = rospy.Publisher('arm_joint_position', Float32MultiArray, queue_size=10)
 
         # Subscribing the x, y, z values from the image vectors
 
-        rospy.Subscriber("image_vector", Float32MultiArray, self.vector_callback)
+        rospy.Subscriber("/robotic_arm_goal", Float32MultiArray, self.vector_callback)
 
         ## Creating Robotic arm through defining links and Serial Linkage
         Link_1=rtb.DHLink(1.24, -math.pi/2, 0, 0)
@@ -55,7 +55,7 @@ class inversepose:
 
     def vector_callback(self, data):
         
-        rospy.rospy.loginfo(f"recieved image vector {data.data}")
+        rospy.loginfo(f"recieved image vector {data.data}")
 
         try:
             # calculate point_solution irb_robot

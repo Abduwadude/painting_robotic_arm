@@ -58,6 +58,7 @@ all: irb_120_moveit_config/all
 all: goal_pub/all
 all: image_vector/all
 all: inverse_kinematics/all
+all: trajectory_controll_pub/all
 all: irb_120_arm/all
 
 .PHONY : all
@@ -68,6 +69,7 @@ preinstall: irb_120_moveit_config/preinstall
 preinstall: goal_pub/preinstall
 preinstall: image_vector/preinstall
 preinstall: inverse_kinematics/preinstall
+preinstall: trajectory_controll_pub/preinstall
 preinstall: irb_120_arm/preinstall
 
 .PHONY : preinstall
@@ -83,6 +85,7 @@ clean: irb_120_moveit_config/clean
 clean: goal_pub/clean
 clean: image_vector/clean
 clean: inverse_kinematics/clean
+clean: trajectory_controll_pub/clean
 clean: irb_120_arm/clean
 
 .PHONY : clean
@@ -247,6 +250,24 @@ irb_120_moveit_config/preinstall:
 irb_120_moveit_config/clean: irb_120_moveit_config/CMakeFiles/_catkin_empty_exported_target.dir/clean
 
 .PHONY : irb_120_moveit_config/clean
+
+#=============================================================================
+# Directory level rules for directory trajectory_controll_pub
+
+# Recursive "all" directory target.
+trajectory_controll_pub/all:
+
+.PHONY : trajectory_controll_pub/all
+
+# Recursive "preinstall" directory target.
+trajectory_controll_pub/preinstall:
+
+.PHONY : trajectory_controll_pub/preinstall
+
+# Recursive "clean" directory target.
+trajectory_controll_pub/clean:
+
+.PHONY : trajectory_controll_pub/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/doxygen.dir

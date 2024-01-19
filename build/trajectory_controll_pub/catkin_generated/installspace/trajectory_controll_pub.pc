@@ -1,0 +1,8 @@
+prefix=/home/king/catkin_ws/install
+
+Name: trajectory_controll_pub
+Description: Description of trajectory_controll_pub
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

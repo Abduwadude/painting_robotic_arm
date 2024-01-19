@@ -79,6 +79,13 @@
 /home/king/catkin_ws/build/inverse_kinematics/CMakeFiles/rebuild_cache.dir
 /home/king/catkin_ws/build/inverse_kinematics/CMakeFiles/edit_cache.dir
 /home/king/catkin_ws/build/inverse_kinematics/CMakeFiles/test.dir
+/home/king/catkin_ws/build/trajectory_controll_pub/CMakeFiles/install/strip.dir
+/home/king/catkin_ws/build/trajectory_controll_pub/CMakeFiles/install/local.dir
+/home/king/catkin_ws/build/trajectory_controll_pub/CMakeFiles/install.dir
+/home/king/catkin_ws/build/trajectory_controll_pub/CMakeFiles/list_install_components.dir
+/home/king/catkin_ws/build/trajectory_controll_pub/CMakeFiles/rebuild_cache.dir
+/home/king/catkin_ws/build/trajectory_controll_pub/CMakeFiles/edit_cache.dir
+/home/king/catkin_ws/build/trajectory_controll_pub/CMakeFiles/test.dir
 /home/king/catkin_ws/build/irb_120_arm/CMakeFiles/install/strip.dir
 /home/king/catkin_ws/build/irb_120_arm/CMakeFiles/install/local.dir
 /home/king/catkin_ws/build/irb_120_arm/CMakeFiles/install.dir
