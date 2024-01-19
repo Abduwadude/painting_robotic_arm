@@ -17,7 +17,7 @@ class inversepose:
 
         #Publishing data of joint rotations and positions
 
-        self.inverse_joint_pub = rospy.Publisher('arm_joint_position', Float32MultiArray, queue_size=10)
+        self.inverse_joint_pub = rospy.Publisher('/arm_joint_position', Float32MultiArray, queue_size=10)
 
         # Subscribing the x, y, z values from the image vectors
 
@@ -47,10 +47,9 @@ class inversepose:
 
 
     def joint_publisher(self, inverse_slove_point):
-        msg.layout.dim = []
         msg = Float32MultiArray()
-        msg.data= inverse_slove_point.q.tolist()
-
+        msg.layout.dim = []
+        msg.data= inverse_slove_point.tolist()
         self.inverse_joint_pub.publish(msg)
 
     def vector_callback(self, data):
