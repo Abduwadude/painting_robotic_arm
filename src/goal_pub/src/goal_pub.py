@@ -17,10 +17,10 @@ def robotic_arm_square_movement():
 
     # Define the square movement coordinates
     square_coordinates = [
-        [1.0, 1.0, 0.0],
-        [1.0, -1.0, 0.0],
-        [-1.0, -1.0, 0.0],
-        [-1.0, 1.0, 0.0],
+        [1.0, 0.0, 1.0],
+        [1.0, 1.0, 1.0],
+        [1.0, 1.0, 0.5],
+        [1.0, 0.0, 0.5],
     ]
 
     rate = rospy.Rate(0.2)  # Adjust the rate based on your desired movement speed
