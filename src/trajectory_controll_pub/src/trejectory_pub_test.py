@@ -24,7 +24,7 @@ def perform_trajectory():
     rospy.wait_for_message('arm_joint_position', Float32MultiArray)
     rospy.loginfo("Received arm_joint_position data. Let's go!")
 
-    rate = rospy.Rate(10)  # Adjust the rate as needed
+    rate = rospy.Rate(12)  # Adjust the rate as needed
 
     while not rospy.is_shutdown():
         if goal_positions is not None:

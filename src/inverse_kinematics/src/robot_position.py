@@ -70,7 +70,7 @@ class inversepose:
 def main():
     node = inversepose()
 
-    rate = rospy.Rate(10)
+    rate = rospy.Rate(0.2)
     while not rospy.is_shutdown():
         # node.publish_message("Hello")
         rate.sleep()
