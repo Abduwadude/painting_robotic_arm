@@ -58,6 +58,7 @@ all: irb_120_moveit_config/all
 all: goal_pub/all
 all: image_vector/all
 all: inverse_kinematics/all
+all: robotic_teleop_keyboard/all
 all: trajectory_controll_pub/all
 all: irb_120_arm/all
 
@@ -69,6 +70,7 @@ preinstall: irb_120_moveit_config/preinstall
 preinstall: goal_pub/preinstall
 preinstall: image_vector/preinstall
 preinstall: inverse_kinematics/preinstall
+preinstall: robotic_teleop_keyboard/preinstall
 preinstall: trajectory_controll_pub/preinstall
 preinstall: irb_120_arm/preinstall
 
@@ -85,6 +87,7 @@ clean: irb_120_moveit_config/clean
 clean: goal_pub/clean
 clean: image_vector/clean
 clean: inverse_kinematics/clean
+clean: robotic_teleop_keyboard/clean
 clean: trajectory_controll_pub/clean
 clean: irb_120_arm/clean
 
@@ -250,6 +253,24 @@ irb_120_moveit_config/preinstall:
 irb_120_moveit_config/clean: irb_120_moveit_config/CMakeFiles/_catkin_empty_exported_target.dir/clean
 
 .PHONY : irb_120_moveit_config/clean
+
+#=============================================================================
+# Directory level rules for directory robotic_teleop_keyboard
+
+# Recursive "all" directory target.
+robotic_teleop_keyboard/all:
+
+.PHONY : robotic_teleop_keyboard/all
+
+# Recursive "preinstall" directory target.
+robotic_teleop_keyboard/preinstall:
+
+.PHONY : robotic_teleop_keyboard/preinstall
+
+# Recursive "clean" directory target.
+robotic_teleop_keyboard/clean:
+
+.PHONY : robotic_teleop_keyboard/clean
 
 #=============================================================================
 # Directory level rules for directory trajectory_controll_pub

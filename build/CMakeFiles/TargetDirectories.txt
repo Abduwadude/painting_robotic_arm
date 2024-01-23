@@ -79,6 +79,13 @@
 /home/king/catkin_ws/build/inverse_kinematics/CMakeFiles/rebuild_cache.dir
 /home/king/catkin_ws/build/inverse_kinematics/CMakeFiles/edit_cache.dir
 /home/king/catkin_ws/build/inverse_kinematics/CMakeFiles/test.dir
+/home/king/catkin_ws/build/robotic_teleop_keyboard/CMakeFiles/install/strip.dir
+/home/king/catkin_ws/build/robotic_teleop_keyboard/CMakeFiles/install/local.dir
+/home/king/catkin_ws/build/robotic_teleop_keyboard/CMakeFiles/install.dir
+/home/king/catkin_ws/build/robotic_teleop_keyboard/CMakeFiles/list_install_components.dir
+/home/king/catkin_ws/build/robotic_teleop_keyboard/CMakeFiles/rebuild_cache.dir
+/home/king/catkin_ws/build/robotic_teleop_keyboard/CMakeFiles/edit_cache.dir
+/home/king/catkin_ws/build/robotic_teleop_keyboard/CMakeFiles/test.dir
 /home/king/catkin_ws/build/trajectory_controll_pub/CMakeFiles/install/strip.dir
 /home/king/catkin_ws/build/trajectory_controll_pub/CMakeFiles/install/local.dir
 /home/king/catkin_ws/build/trajectory_controll_pub/CMakeFiles/install.dir
